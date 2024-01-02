@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_page_view/app_page_view.dart';
+import 'package:flutter_page_view/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Apppageview(),
+      home: Splash(),
     );
   }
 }
